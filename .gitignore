@@ -1,0 +1,21 @@
+# 密钥（只提交 .env.example）
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+
+# 前端
+node_modules/
+.next/
+
+# 本地数据与上传文件
+data/
+*.db
+*.sqlite3
+
+# 系统
+.DS_Store
